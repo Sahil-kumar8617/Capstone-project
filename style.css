@@ -95,6 +95,10 @@
     width: 50%;
     z-index: 2;
   }
+.buttun:hover{
+    transform:scale(1.2);
+
+}
   
   .container.active .sign-in {
     transform: translateX(100%);
@@ -128,6 +132,18 @@
   .icons {
     margin: 20px 0;
   }
+.icon1:hover{
+  transform:scale(1.2);
+}
+.icon2:hover{
+  transform:scale(1.2);
+}
+.icon3:hover{
+  transform:scale(1.2);
+}
+.icon4:hover{
+  transform:scale(1.2);
+}
   
   .icons a {
     border: 1px solid #ccc;
@@ -168,6 +184,9 @@
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
   }
+.hidden:hover{
+    transform:scale(1.2)
+}
   
   .container.active .toogle {
     transform: translateX(50%);
